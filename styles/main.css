@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+header h2{
+    font-size: 250%;
+}
+
+section a:link, section a:visited{
+    color: maroon;
+}
+
+section a:hover, section a:active{
+    color: steelblue;
+}
