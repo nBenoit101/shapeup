@@ -41,6 +41,64 @@ header div{
     gap: 5px;
 }
 
+#nav_menu{
+    border-bottom: 3px solid steelblue;
+    background-color: steelblue;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+#nav_menu li{
+    width: 20%;
+
+}
+
+#nav_menu a{
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    background-color: steelblue;
+    font-weight: bold;
+    color: white;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+#nav_menu ul li a{
+    text-align: left;
+    padding-left: .25em;
+}
+
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+
+#nav_menu a:hover{
+    background-color: lightsteelblue;
+    color: black;
+}
+
+#nav_list h2{
+    margin-bottom: 5px;
+}
+
+#nav_list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
 a{
     text-decoration: none;
 }
@@ -72,6 +130,11 @@ aside a{
     font-weight: bold;
 }
 
+aside h3{
+    color: maroon;
+    text-align: center;
+}
+
 aside ul{
     padding-left: 4em;
 
@@ -88,11 +151,13 @@ section{
     max-width: 70%;
 }
 
-aside{
-    padding-top: 4em;
+section h3{
+    padding-bottom: .25em;
 }
-main h2, main h3{
-    margin: 0 1em 2em;
+
+
+main h2{
+    margin: 0 0em 2em;
 }
 
 main p{
